@@ -1,0 +1,14 @@
+.main-nav{
+    max-width: 1000px;
+    // background-color: #B7C18D;
+}
+.main-nav-elements {
+  min-width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-dropdown{
+    padding:5px;
+}
