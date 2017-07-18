@@ -1,0 +1,18 @@
+.parallax-photo{
+    position: relative;
+    left: calc(-50vw + 50%);
+}
+
+#parallax-01{
+    background-image: url('../../assets/parallax-01.png');
+    height: 500px;
+    background-position: center 75%;
+    width: 100vw;
+}
+
+#parallax-02{
+    background-image: url('../../assets/parallax-02.png');
+    height: 500px;
+    background-position: center 75%;
+    width: 100vw;
+}

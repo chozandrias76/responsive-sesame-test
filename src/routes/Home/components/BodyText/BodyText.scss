@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+.body-text{
+        padding: 75px;
+        font-family: 'Roboto Condensed', serif;
+        span{
+            color: green;
+        }
+        h1{
+            padding-bottom: 50px;
+        }
+        .row{
+            max-width: 1000px;
+            text-align: left;
+        }
+}
