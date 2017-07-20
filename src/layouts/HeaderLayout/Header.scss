@@ -2,22 +2,24 @@ span.fa{
     //padding: 10px;
 }
 
-#nav-row{
-    background-color: #B7C18D;
-    width: 105vw;
-    right: calc(50vw - 50%);
-    height: 50px;
-    position: relative;
-}
+// #nav-row{
+//     background-color: #B7C18D;
+//     width: 105vw;
+//     right: calc(50vw - 50%);
+//     height: 50px;
+//     position: relative;
+// }
 
 .header{
     max-width: 1000px;
     max-height: 144px;
+    
     .fa{
         padding: 5px;
     }
-    .row{
-        max-height: inherit;
+    
+    .row#nav-row{
+        width: 1000px;
     }
     #col-1{
     padding: 0;

@@ -1,14 +1,26 @@
 .main-nav{
     max-width: 1000px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
     // background-color: #B7C18D;
 }
 .main-nav-elements {
   min-width: 100%;
+  max-width: 1000px;
+  width: 1000px;
   text-align: center;
   display: flex;
+  align-items: stretch;
   justify-content: space-between;
 }
 
 .nav-dropdown{
-    padding:5px;
+    //padding:5px;
+    align-items: stretch;
+}
+
+.nav-container{
+    display:flex;
+    align-items: center;
 }

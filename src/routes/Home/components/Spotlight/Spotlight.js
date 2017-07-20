@@ -23,7 +23,9 @@ function SpotLeftText (spotProps) {
         </div>
       </Col>
       <Col xs={4} md={4} id='col-2'>
-        <div className='spotPicture' id={spotProps.props.id} style={combineObjects({ backgroundImage: spotProps.props.imgUrl }, spotStyle)} />
+        <div style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '16px' }}>
+          <div className='spotPicture' id={spotProps.props.id} style={combineObjects({ backgroundImage: spotProps.props.imgUrl }, spotPictureStyle)} />
+        </div>
       </Col>
     </Row>
   </div>
@@ -33,7 +35,9 @@ function SpotRightText (spotProps) {
   return <div className='spotlight-container' style={{ background: spotProps.props.backgroundColor }}>
     <Row className='spotlight'>
       <Col xs={4} md={4} id='col-2'>
-        <div className='spotPicture' id={spotProps.props.id} style={combineObjects({ backgroundImage: spotProps.props.imgUrl }, spotStyle)} />
+        <div style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '16px' }}>
+          <div className='spotPicture' id={spotProps.props.id} style={combineObjects({ backgroundImage: spotProps.props.imgUrl }, spotPictureStyle)} />
+        </div>
       </Col>
       <Col xs={8} md={8} id='col-1'>
         <div className='text-area'>
@@ -50,11 +54,9 @@ function combineObjects (style1, style2) {
   return Object.assign({}, style1, style2)
 }
 
-const spotStyle = {
+const spotPictureStyle = {
   width: '100px',
   height: '100px',
-  border: '1px solid #ccc',
-  borderRadius: '16px',
   margin: '10px'
 }
 

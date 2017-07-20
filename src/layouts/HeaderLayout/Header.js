@@ -6,6 +6,7 @@ import FontAwesome from 'react-fontawesome'
 import './Header.scss'
 
 import MainNav from '../NavLayout/MainNav'
+import HeaderNav from '../NavLayout/HeaderNav'
 
 export const Header = ({ children }) => (
   <div className='container header'>
@@ -13,9 +14,7 @@ export const Header = ({ children }) => (
       <Col xs={4} md={4} id='col-1'>
         <p>(888) 0-MARIO</p>
       </Col>
-      <Col xs={4} md={4} id='col-2'>
-        <img src='http://i.imgur.com/w5RYah6.png' alt='' />
-      </Col>
+      <Col xs={4} md={4} id='col-2' />
       <Col xs={4} md={4} id='col-3'>
         <FontAwesome
           className='fa fa-lock' />
@@ -29,6 +28,7 @@ export const Header = ({ children }) => (
     </Row>
     <Row id='nav-row'>
       <MainNav />
+      {/*<HeaderNav /> */}
     </Row>
   </div>
 )

@@ -2,6 +2,7 @@ import React from 'react'
 import { browserHistory, Router } from 'react-router'
 import { Provider } from 'react-redux'
 import PropTypes from 'prop-types'
+import HeaderNav from '../layouts/NavLayout/HeaderNav'
 
 class App extends React.Component {
   static propTypes = {
